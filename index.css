@@ -144,14 +144,14 @@ p {
 .links {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
-.links a {
-    display: block;
-}
+
 
 .social-icons {
     display: flex;
+    gap: 1rem;
 }
 
 /* section */

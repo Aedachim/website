@@ -138,12 +138,16 @@ p {
 .logo-container {
     display: flex;
     align-items: center;
-    
+    height: 80px;
+}
+
+#papagei {
+    width: 25px;
+    height: 25px;
 }
 
 .links {
     display: flex;
-    justify-content: space-between;
     gap: 1rem;
 }
 

@@ -151,6 +151,20 @@ p {
     gap: 1rem;
 }
 
+.links a {
+    color: #000;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+}
+
+.links a:hover {
+    color: red;
+    background-color: #000;
+    padding-left: 1.5rem;
+}
 
 
 .social-icons {
@@ -161,6 +175,132 @@ p {
 #heart {
     width: 50px;
     height: 50px;
+}
+
+#user {
+    width: 50px;
+    height: 50px;
+}
+
+#hamburger {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+#hamburger:hover {
+    color: red;
+    transform: rotate(90deg);
+}
+
+#kirschblueten {
+    width: 1200px;
+    height: 500px;
+    background: url("hero\tomoko-uji-eriuKJwcdjI-unsplash.jpg") center/cover no-repeat;
+    display: grid;
+    margin: 1rem auto;
+}
+
+.header-headline {
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    display: grid;
+}
+
+.search-tab-panel-0 {
+    position: absolute;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #fff;
+    top: 300px;
+    left: 80px;
+    width: 1100px;
+    height: 200px;
+    padding: 1rem;
+}
+
+.search-tablist {
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(4, 50px);
+    column-gap: 10px;
+}
+
+.search-tab-buttons {
+    background-color: #40B7FF;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.label-position {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding-left: 1rem;
+    margin: 1rem 1rem;
+    width: 200px;
+    height: 50px;
+}
+
+.drop-down-wrapper {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+}
+
+.control {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding-left: 1rem;
+    margin: 1rem 1rem;
+    width: 200px;
+    height: 50px;
+}
+
+.airport__select--mobile {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding-left: 1rem;
+    margin: 1rem 1rem;
+    width: 200px;
+    height: 50px;
+}
+
+.dropdown-wrapper-travel {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding-left: 1rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.form-row {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.form-row:hover {
+    background-color: lightblue;
 }
 
 /* section */
